@@ -35,18 +35,20 @@ NearNest is a modern, intuitive Android app built to help users quickly find nea
 
 ---
 
-
 NearNest/
 ├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/nearnest/
-│   │   │   ├── res/
-│   │   │   └── AndroidManifest.xml
-│   └── build.gradle
-├── build.gradle
-├── settings.gradle
-└── README.md
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/com/nearnest/ # Kotlin source files
+│ │ │ │ ├── ui/ # Activities and UI
+│ │ │ │ ├── data/ # Data models / API logic
+│ │ │ │ └── utils/ # Utility classes/helpers
+│ │ │ ├── res/ # Layouts, drawables, values
+│ │ │ └── AndroidManifest.xml # App manifest
+│ └── build.gradle # Module level Gradle
+├── build.gradle # Project level Gradle
+├── settings.gradle # Settings file
+└── README.md # You’re here!
 
 ## 🛠️ Installation
 
