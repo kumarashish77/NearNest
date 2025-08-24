@@ -98,8 +98,9 @@ Generate an API Key
 
 Restrict the key for Android apps with your package name and SHA-1 signing certificate
 
-🗂 Project Structure
+## 🗂 Project Structure
 
+```plaintext
 NearNest/
 ├── app/
 │   ├── src/
@@ -117,6 +118,7 @@ NearNest/
 │   │   │   └── AndroidManifest.xml
 │   ├── build.gradle
 └── README.md
+
 
 🎨 UI Layouts
 activity_main.xml → Splash/Entry screen with navigation button
