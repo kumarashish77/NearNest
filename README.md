@@ -117,6 +117,7 @@ NearNest/
 │   │   │   └── AndroidManifest.xml
 │   ├── build.gradle
 └── README.md
+
 🎨 UI Layouts
 activity_main.xml → Splash/Entry screen with navigation button
 
